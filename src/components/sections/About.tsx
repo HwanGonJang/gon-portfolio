@@ -61,6 +61,7 @@ const About = ({ language }: AboutProps) => {
           position: "Organizer",
           description: [
             "GDGoC Soongsil 개발자 커뮤니티 운영",
+            "개발자 생태계 활성화에 기여",
             "세미나, 스터디, 컨퍼런스, 연합행사 등 학생 개발자들을 위한 다양한 활동 진행"
           ],
           link: "https://gdg.community.dev/gdg-on-campus-soongsil-university-seoul-south-korea/"
@@ -80,13 +81,16 @@ const About = ({ language }: AboutProps) => {
       title: "About",
       description: (
         <>
-          I&apos;m a data/cloud engineer with a strong interest in Cloud/AI technologies.<br />
-          As a full-stack developer capable of both backend and frontend development,<br />
-          I have strengths in Cloud, Kubernetes, Terraform, and Spring Boot.
+          I am a data/cloud engineer with a strong interest in cloud computing and AI.<br />
+          As a full-stack developer capable of both backend and frontend development,<br />I have expertise in Cloud, Kubernetes, Terraform, and Spring Boot.<br />
+          I focus on automating repetitive tasks and abstracting complex systems to reduce workload for both developers and users.
         </>
       ),
-      mission1: "I want to automate repetitive functions and abstract difficult functions to reduce the workload of developers and users.",
-      mission2: "I am a developer who focuses on people's convenience. I want to make the world work in a better direction with my abilities.",
+      mission1: (
+        <>
+        I am a developer who focuses on people's convenience. I want to make the world work in a better direction with my abilities.
+        </>
+      ),
       experience: "Experience",
       education: "Education",
       activities: "Activities",
@@ -157,7 +161,7 @@ const About = ({ language }: AboutProps) => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl font-bold text-gray-900 mb-6">{content[language].title}</h2>
-          <div className="max-w-4xl mx-auto space-y-6 text-lg text-gray-600 leading-relaxed">
+          <div className="max-w-6xl mx-auto space-y-6 text-lg text-gray-600 leading-relaxed">
             <p>{content[language].description}</p>
             <p>{content[language].mission1}</p>
           </div>
