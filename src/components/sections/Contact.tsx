@@ -21,7 +21,7 @@ const Contact = ({ language }: ContactProps) => {
   const content = {
     ko: {
       title: "Contact",
-      subtitle: "프로젝트 협업이나 기술 관련 이야기를 나누고 싶으시다면 언제든지 연락주세요!",
+      subtitle: "채용이나 기술 관련 이야기를 나누고 싶으시다면 언제든지 연락주세요!",
       directEmail: "직접 이메일 보내기",
       formTitle: "메시지 보내기",
       nameLabel: "이름",
@@ -38,7 +38,7 @@ const Contact = ({ language }: ContactProps) => {
     },
     en: {
       title: "Contact",
-      subtitle: "Feel free to reach out if you'd like to collaborate on projects or discuss technology!",
+      subtitle: "Feel free to reach out if you'd like to process recruitment or discuss technology!",
       directEmail: "Send Direct Email",
       formTitle: "Send Message",
       nameLabel: "Name",
