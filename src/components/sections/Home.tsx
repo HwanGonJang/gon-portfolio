@@ -142,7 +142,7 @@ const Home = ({ language }: HomeProps) => {
                 transition={{ delay: 0.5, duration: 0.6 }}
                 className="h-12 flex items-center"
               >
-                <span className="text-2xl font-medium text-gray-700 mr-2">I'm a </span>
+                <span className="text-2xl font-medium text-gray-700 mr-2">I&apos;m a </span>
                 <motion.span
                   key={currentRoleIndex}
                   initial={{ opacity: 0, y: 20 }}
