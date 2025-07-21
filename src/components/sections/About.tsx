@@ -88,7 +88,7 @@ const About = ({ language }: AboutProps) => {
       ),
       mission1: (
         <>
-        I am a developer who focuses on people's convenience. I want to make the world work in a better direction with my abilities.
+        I am a developer who focuses on people&apos;s convenience. I want to make the world work in a better direction with my abilities.
         </>
       ),
       experience: "Experience",
