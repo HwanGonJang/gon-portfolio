@@ -37,7 +37,7 @@ const Home = ({ language }: HomeProps) => {
           빅데이터와 클라우드 기술을 통해 세상을 더 나은 방향으로 만들어가고 싶습니다.
         </>
       ),
-      roles: ["Backend Developer", "Cloud Engineer", "Data Engineer", "DevOps Engineer"]
+      roles: ["Data Engineer", "Cloud Engineer", "DevOps Engineer", "Backend Developer"]
     },
     en: {
       greeting: "Walk to Work!",
