@@ -20,6 +20,7 @@ import {
   SiPrometheus,
   SiTensorflow,
   SiPytorch,
+  SiLangchain,
   SiReact,
   SiNextdotjs,
   SiTailwindcss,
@@ -107,7 +108,8 @@ const Skills = ({ language }: SkillsProps) => {
       category: 'ai',
       skills: [
         { name: 'TensorFlow', icon: SiTensorflow, color: '#FF6F00', isStrong: false },
-        { name: 'PyTorch', icon: SiPytorch, color: '#EE4C2C', isStrong: false }
+        { name: 'PyTorch', icon: SiPytorch, color: '#EE4C2C', isStrong: false },
+        { name: 'LangChain', icon: SiLangchain, color: '#000000', isStrong: false }
       ]
     },
     {
@@ -195,7 +197,7 @@ const Skills = ({ language }: SkillsProps) => {
           <div className="flex items-center justify-center gap-2 text-yellow-600">
             <Star className="h-5 w-5 fill-yellow-500" />
             <span className="text-sm font-medium">
-              {language === 'ko' ? '강점 기술' : 'Strong Skills'}
+              {language === 'ko' ? 'Strong Skills' : 'Strong Skills'}
             </span>
           </div>
         </motion.div>

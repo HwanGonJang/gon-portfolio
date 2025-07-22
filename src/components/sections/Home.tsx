@@ -34,7 +34,7 @@ const Home = ({ language }: HomeProps) => {
       description: (
         <>
           안녕하세요! 소셜 임팩트를 실현하는 개발자 장환곤입니다.<br />
-          빅데이터와 클라우드 기술을 통해 세상을 더 나은 방향으로 만들어가고 싶습니다.
+          빅데이터와 클라우드 기술을 통해 세상을 더 나은 방향으로 동작시키고 싶습니다.
         </>
       ),
       roles: ["Data Engineer", "Cloud Engineer", "DevOps Engineer", "Backend Developer"]

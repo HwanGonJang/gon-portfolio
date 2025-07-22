@@ -26,7 +26,7 @@ const Projects = ({ language }: ProjectsProps) => {
             "sLM을 통한 주식 분석 및 추천",
             "주식 매수/매도 인사이트를 위한 다양한 정보 제공"
           ],
-          techStack: ["Kubernetes", "Helm", "Kafka", "Spark", "Cassandra", "FastAPI", "LLM", "Kotlin", "Spring Boot", "PostgreSQL", "Next.js"],
+          techStack: ["Kubernetes", "Helm", "Kafka", "Spark", "Cassandra", "FastAPI", "LLM", "LangChain", "Kotlin", "Spring Boot", "PostgreSQL", "Next.js"],
           thumbnail: "/projects/gsd.png",
           projectUrl: "https://gsd.hwangonjang.com/",
           githubUrl: "https://github.com/HwanGonJang/stock-streaming-data-pipeline",
@@ -35,7 +35,7 @@ const Projects = ({ language }: ProjectsProps) => {
         {
           id: 2,
           title: "Yourssu Infrastructure System",
-          date: "2024.02 ~ 2025.05",
+          date: "2025.02 ~ 2025.05",
           description: "교내 서비스 제공을 위한 온프레미스 서버 구성 및 배포 백오피스 구현",
           features: [
             "Kubernetes 기능을 추상화하여 개발/비개발 팀원이 쉽고 빠르게 서버 배포",
@@ -73,7 +73,7 @@ const Projects = ({ language }: ProjectsProps) => {
           features: [
             "CNN을 이용한 눈 깜빡임 모니터링 시스템",
             "눈 깜빡임에 의한 집중도 수치화",
-            "WebRTC를 이용하여 웹캠 스트리밍",
+            "WebRTC를 이용한 웹캠 스트리밍",
             "KISS 논문 1저자 등재"
           ],
           techStack: ["Tensorflow", "Keras", "Spring Boot", "MySQL", "React", "WebRTC"],
@@ -117,7 +117,7 @@ const Projects = ({ language }: ProjectsProps) => {
             "Stock analysis and recommendations through sLM",
             "Comprehensive insights for stock buy/sell decisions"
           ],
-          techStack: ["Kubernetes", "Helm", "Kafka", "Spark", "Cassandra", "FastAPI", "LLM", "Kotlin", "Spring Boot", "PostgreSQL", "Next.js"],
+          techStack: ["Kubernetes", "Helm", "Kafka", "Spark", "Cassandra", "FastAPI", "LLM", "LangChain", "Kotlin", "Spring Boot", "PostgreSQL", "Next.js"],
           thumbnail: "/projects/gsd.png",
           projectUrl: "https://gsd.hwangonjang.com/",
           githubUrl: "https://github.com/HwanGonJang/stock-streaming-data-pipeline",
@@ -126,7 +126,7 @@ const Projects = ({ language }: ProjectsProps) => {
         {
           id: 2,
           title: "Yourssu Infrastructure System",
-          date: "2024.02 ~ 2025.05",
+          date: "2025.02 ~ 2025.05",
           description: "Built on-premise server infrastructure and deployment back-office system for campus services",
           features: [
             "Abstracted Kubernetes functionality for easy and fast server deployment",
