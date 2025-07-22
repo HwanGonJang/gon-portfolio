@@ -37,7 +37,7 @@ const Home = ({ language }: HomeProps) => {
           빅데이터와 클라우드 기술을 통해 세상을 더 나은 방향으로 동작시키고 싶습니다.
         </>
       ),
-      roles: ["Data Engineer", "Cloud Engineer", "DevOps Engineer", "Backend Developer"]
+      roles: ["Software Enginner", "Data Engineer", "Cloud Engineer", "DevOps Engineer", "Backend Developer"]
     },
     en: {
       greeting: "Walk to Work!",
@@ -48,7 +48,7 @@ const Home = ({ language }: HomeProps) => {
           I want to make the world work in a better direction through<br />big data processing and cloud technologies.
         </>
       ),
-      roles: ["Backend Developer", "Cloud Engineer", "Data Engineer", "DevOps Engineer"]
+      roles: ["Software Enginner", "Data Engineer", "Cloud Engineer", "DevOps Engineer", "Backend Developer"]
     }
   };
 
@@ -172,7 +172,7 @@ const Home = ({ language }: HomeProps) => {
                 className="flex gap-4 justify-center lg:justify-start flex-wrap"
               >
                 <motion.a
-                  href="https://www.linkedin.com/in/%ED%99%98%EA%B3%A4-%EC%9E%A5-47ab68291/"
+                  href="https://www.linkedin.com/in/hwangon-jang-47ab68291/"
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.1, y: -2 }}

@@ -23,7 +23,7 @@ const Footer = ({ language }: FooterProps) => {
     {
       name: 'LinkedIn',
       icon: Linkedin,
-      url: 'https://www.linkedin.com/in/%ED%99%98%EA%B3%A4-%EC%9E%A5-47ab68291/',
+      url: 'https://www.linkedin.com/in/hwangon-jang-47ab68291/',
       color: 'hover:text-blue-600'
     },
     {

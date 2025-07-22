@@ -84,16 +84,16 @@ const Header = ({ language, setLanguage }: HeaderProps) => {
 
           <div className="hidden md:flex items-center space-x-4">
             <div className="flex items-center space-x-3">
-              <a href="https://www.linkedin.com/in/hwangon-jang/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/hwangon-jang-47ab68291/" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="h-5 w-5 text-gray-600 hover:text-blue-600 transition-colors" />
               </a>
-              <a href="https://github.com/ggona" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/HwanGonJang" target="_blank" rel="noopener noreferrer">
                 <Github className="h-5 w-5 text-gray-600 hover:text-gray-900 transition-colors" />
               </a>
-              <a href="https://www.notion.so/ggona/Hwangon-Jang-34b41d84b91b4e088d3aeb5b0f94fc13" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.notion.so/hwangonjang/c36e2f5c42834fd6bb836dcdd66718e1?pvs=4" target="_blank" rel="noopener noreferrer">
                 <Globe className="h-5 w-5 text-gray-600 hover:text-gray-900 transition-colors" />
               </a>
-              <a href="https://www.instagram.com/gon_i_am/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/hwangonjang/" target="_blank" rel="noopener noreferrer">
                 <Instagram className="h-5 w-5 text-gray-600 hover:text-pink-600 transition-colors" />
               </a>
               <a href="https://medium.com/@myggona" target="_blank" rel="noopener noreferrer">
@@ -153,16 +153,16 @@ const Header = ({ language, setLanguage }: HeaderProps) => {
             
             <div className="mt-4 pt-4 border-t border-gray-200">
               <div className="flex justify-center space-x-4 mb-4">
-                <a href="https://www.linkedin.com/in/hwangon-jang/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/hwangon-jang-47ab68291/" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="h-6 w-6 text-gray-600 hover:text-blue-600 transition-colors" />
                 </a>
-                <a href="https://github.com/ggona" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/HwanGonJang" target="_blank" rel="noopener noreferrer">
                   <Github className="h-6 w-6 text-gray-600 hover:text-gray-900 transition-colors" />
                 </a>
-                <a href="https://www.notion.so/ggona/Hwangon-Jang-34b41d84b91b4e088d3aeb5b0f94fc13" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.notion.so/hwangonjang/c36e2f5c42834fd6bb836dcdd66718e1?pvs=4" target="_blank" rel="noopener noreferrer">
                   <Globe className="h-6 w-6 text-gray-600 hover:text-gray-900 transition-colors" />
                 </a>
-                <a href="https://www.instagram.com/gon_i_am/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/hwangonjang/" target="_blank" rel="noopener noreferrer">
                   <Instagram className="h-6 w-6 text-gray-600 hover:text-pink-600 transition-colors" />
                 </a>
                 <a href="https://medium.com/@myggona" target="_blank" rel="noopener noreferrer">
